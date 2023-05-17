@@ -1,0 +1,24 @@
+.statistics {
+  margin-top: 50px;
+  margin-bottom: 80px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  border: double 4px grey;
+  background-color: rgba(51, 103, 142, 0.212);
+}
+
+.title {
+  text-align: center;
+  border-bottom: double 4px grey;
+}
+
+.stat-list {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+
+.stat-item {
+  font-style: italic;
+}
