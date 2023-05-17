@@ -13,12 +13,13 @@
   border-bottom: double 4px grey;
 }
 
-.stat-list {
+.statList {
   display: flex;
   list-style: none;
   gap: 10px;
+  padding-left: 5px;
 }
 
-.stat-item {
+.statItem {
   font-style: italic;
 }
