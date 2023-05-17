@@ -3,7 +3,7 @@ import styles from './Statistics.module.css';
 
 const Statistics = ({ title, stats }) => (
   <section className={styles.statistics}>
-    {title.lenght === 0 && <h2 className={styles.title}>{title}</h2>}
+    {title.lenght === 0 ? <h2 className={styles.title}>{title}</h2> : null}
 
     <ul className={styles.statList}>
       {stats.map(stat => (
